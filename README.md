@@ -85,5 +85,5 @@ The model was developed independently by the author, building on the foundations
 Foundations of agent-based modelling were learnt with help from:
 https://www.geog.leeds.ac.uk/courses/computing/study/core-python/
   
-Command line arguement source code was adapted from:
+Command line argument source code was adapted from:
 https://docs.python.org/3/library/argparse.html
