@@ -79,7 +79,7 @@ Although the model is a very simple representation of drunk's movements between 
 **Student ID:** 201466497, The University of Leeds
 
 ## License 
-The repository is licensed under the [MIT License](https://github.com/tburgess97/ABM/blob/main/LICENSE)
+The repository is licensed under the [MIT License](https://github.com/tburgess97/Planning-for-Drunks/blob/main/LICENSE)
 
 ## Acknowledgements and references
 The model was developed independently by the author, building on the foundations learnt within https://www.geog.leeds.ac.uk/courses/computing/study/core-python/
