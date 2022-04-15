@@ -24,8 +24,8 @@ import random
 
 # Initiate a Drunk class for the agents and define their behaviours as 
 # functions
-
 class Drunk():
+    
     
     def __init__(self, environment, house, density):
         '''

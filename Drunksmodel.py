@@ -34,7 +34,6 @@ print("Libraries and modules imported")
 # Argparse used to set up the model to be run from the command prompt 
 # Command line argument source code adapted from:
     # https://docs.python.org/3/library/argparse.html
-
 parser = argparse.ArgumentParser(description = 'Planning for Drunks Model')
 args = parser.parse_args()
 
@@ -76,7 +75,6 @@ for i in range(len(environment)):
             environment[i][j] = -60
 
 # Set the display parameters for the environment and show the environment
-
 matplotlib.pyplot.xlim(0, 299)
 matplotlib.pyplot.ylim(0, 299)
 matplotlib.pyplot.jet()
@@ -108,6 +106,10 @@ for row in reader:
         rowlist.append(value)
     density.append(rowlist)
 f1.close()
+# Uncomment to check a blank density map has been appended 
+'''
+print(density)
+'''
 
 
 # Drunks 
@@ -169,7 +171,7 @@ if drunks_home == 25:
 # displays it
 
 # Opens a txt file and writes in the density data modelled as a 2D list
-with open('densitymap.txt', 'w', newline='') as f:
+with open('drunk_density_map.txt', 'w', newline='') as f:
     csvwriter = csv.writer(f, delimiter=',',quoting=csv.QUOTE_NONNUMERIC)
     for row in density:
         csvwriter.writerow(row)
