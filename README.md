@@ -82,7 +82,7 @@ Although the model is a very simple representation of drunk's movements between 
 The repository is licensed under the [MIT License](https://github.com/tburgess97/Planning-for-Drunks/blob/main/LICENSE)
 
 ## Acknowledgements and references
-The model was developed independently by the author, building on the foundations learnt within https://www.geog.leeds.ac.uk/courses/computing/study/core-python/
+The model was developed independently by the author, building on the foundations learnt within the GEOG5990M course.
 
 Foundations of agent-based modelling were learnt with help from:
 https://www.geog.leeds.ac.uk/courses/computing/study/core-python/
