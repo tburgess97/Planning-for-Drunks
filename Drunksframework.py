@@ -78,7 +78,7 @@ class Drunk():
         else:
             self.x = (self.x - 1)
             
-        # Fence boundary affect to keep the agent within the environment limits
+        # Fence boundary affect to keep the agent within the environment limit
         if self.y < 0:
             self.y = 0
         if self.y > 299:
